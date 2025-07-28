@@ -17,19 +17,19 @@
 
         lower_layer {
             bindings = <
-&trans  &kp F1    &kp F2  &kp F3    &kp F4      &kp F5                      &kp F6     &kp F7  &kp F8     &kp F9          &kp F10   &kp GRAVE
-&trans  &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PRCNT                   &kp CARET  &kp F7  &kp ASTRK  &kp LPAR        &kp RPAR  &kp TILDE
-&trans  &none     &none   &none     &none       &none                       &none      &none   &none      &kp LEFT_BRACE  &kp F11   &kp PIPE
-&none   &none     &none   &trans    &trans      &trans     &kp DEL  &trans  &mo 3      &trans  &trans     &none           &kp F12   &none
+&trans  &kp F1                   &kp F2        &kp F3      &kp F4       &kp F5                                              &kp F6         &kp F7                &kp F8             &kp F9         &kp F10           &trans
+&trans  &kp EXCL                 &kp QUESTION  &kp DOLLAR  &kp AT_SIGN  &kp AMPERSAND                                       &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_BRACE    &kp PIPE       &kp LEFT_BRACKET  &trans
+&trans  &kp INTERNATIONAL_3      &kp PERCENT   &kp HASH    &kp DOT      &kp SEMI                                            &kp LESS_THAN  &kp GREATER_THAN      &kp RIGHT_BRACKET  &kp BACKSLASH  &kp F11           &trans
+&trans  &kp LS(INTERNATIONAL_3)  &kp UNDER     &kp CARET   &kp COMMA    &kp LS(INTERNATIONAL_1)  &kp DOUBLE_QUOTES  &trans  &trans         &trans                &trans             &trans         &kp F12           &trans
             >;
         };
 
         raise_layer {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6                   &kp F7    &kp F8     &kp F9     &kp F10   &kp F11    &kp F12
-&none   &none   &none   &none   &none   &none                    &none     &kp LEFT   &kp DOWN   &kp UP    &kp RIGHT  &none
-&none   &none   &none   &none   &none   &none                    &kp PLUS  &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT   &kp BSLH
-&none   &none   &none   &trans  &trans  &mo 3   &trans  &kp DEL  &trans    &trans     &trans     &none     &none      &none
+&trans  &kp KP_NUMLOCK     &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS                         &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH     &kp DOUBLE_QUOTES  &trans
+&trans  &kp LS(TAB)        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp AMPERSAND                     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp DOT       &kp MINUS          &trans
+&trans  &kp SLASH          &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp COLON                         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0  &kp EQUAL          &trans
+&trans  &kp DOUBLE_QUOTES  &kp KP_NUMBER_0  &kp DOT          &kp MINUS        &kp SPACE      &kp ENTER  &trans  &trans        &trans        &trans        &mo 3         &kp COLON          &trans
             >;
         };
 
