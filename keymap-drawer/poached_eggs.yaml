@@ -150,14 +150,14 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - bt
+  - '4'
   - ':'
   - {t: ▽, type: trans}
   bt:
   - {t: ▽, type: trans}
   - ESCAPE
   - '`'
-  - {t: BT, h: '2', type: held}
+  - {t: BT CLR ALL, type: held}
   - Ctl+R
   - ''
   - '-'
@@ -205,12 +205,12 @@ layers:
   - Ctl+A
   - {t: ▽, type: trans}
   '4':
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: BT, h: '4'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '0', type: held}
+  - BT CLR
   - BT CLR
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
@@ -241,6 +241,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - BT CLR ALL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -251,7 +252,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - BT CLR ALL
