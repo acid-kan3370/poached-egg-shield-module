@@ -1,3 +1,3 @@
 # zmk-config-poached-eggs
 
-<img src="keymap-drawer/poached-eggs.svg" >
+<img src="keymap-drawer/poached_eggs.svg" >
