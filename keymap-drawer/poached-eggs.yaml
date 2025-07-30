@@ -1,4 +1,4 @@
-layout: {zmk_keyboard: poached-egg}
+layout: {zmk_keyboard: poached-eggs}
 layers:
   Default:
   - {t: Q, h: system_layer}
