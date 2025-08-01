@@ -32,8 +32,8 @@ layers:
   - {t: V, h: raise}
   - {t: B, h: lower}
   - {t: N, h: lower}
-  - {t: M, h: bt}
-  - ','
+  - {t: M, h: raise}
+  - {t: INTERNATIONAL 4, h: bt}
   - PAGE UP
   - UP ARROW
   - PAGE DOWN
@@ -157,7 +157,7 @@ layers:
   - {t: ▽, type: trans}
   - ESCAPE
   - '`'
-  - {t: BT CLR ALL, type: held}
+  - {type: held}
   - Ctl+R
   - ''
   - '-'
@@ -252,6 +252,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: default, h: toggle, type: held}
   - {t: ▽, type: trans}
   - BT CLR ALL
