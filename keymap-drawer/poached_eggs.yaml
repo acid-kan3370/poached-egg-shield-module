@@ -1,94 +1,93 @@
 layout: {zmk_keyboard: poached_eggs}
 layers:
   default:
-  - ESCAPE
   - Q
   - W
   - {t: E, h: bt}
   - {t: R, h: raise}
   - {t: T, h: lower}
+  - ''
+  - ''
   - {t: Y, h: lower}
   - {t: U, h: raise}
   - {t: I, h: bt}
   - O
   - P
-  - {t: END, h: HOME}
-  - TAB
-  - A
-  - S
+  - {t: A, h: LEFT SHIFT}
+  - {t: S, h: LEFT SHIFT}
   - {t: D, h: bt}
   - {t: F, h: raise}
   - {t: G, h: lower}
+  - '4'
+  - '4'
   - {t: H, h: lower}
   - {t: J, h: raise}
   - {t: K, h: bt}
   - L
-  - SCROLL UP
-  - SCROLL DOWN
-  - LSHFT
-  - Z
-  - X
+  - HOME
+  - {t: Z, h: LSHFT}
+  - {t: X, h: LEFT SHIFT}
   - {t: C, h: bt}
   - {t: V, h: raise}
   - {t: B, h: lower}
+  - '4'
+  - '4'
   - {t: N, h: lower}
   - {t: M, h: raise}
-  - {t: INTERNATIONAL 4, h: bt}
   - PAGE UP
   - UP ARROW
   - PAGE DOWN
   - LEFT CONTROL
   - LEFT GUI
   - LEFT ALT
-  - LGUI
-  - bt
+  - {t: bt, h: toggle}
   - SPACE
   - {t: ENTER, h: bt}
+  - ''
+  - ''
   - BACKSPACE
-  - DELETE
-  - TAB
-  - Sft+TAB
+  - DEL
+  - ''
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
   lower:
-  - {t: ▽, type: trans}
   - F1
   - F2
   - F3
   - F4
   - {t: F5, type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - F6
   - F7
   - F8
   - F9
   - F10
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - '!'
   - '?'
   - $
   - '@'
   - '&'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '*'
   - (
   - '}'
   - '|'
   - '['
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - INTERNATIONAL 3
   - '%'
   - '#'
   - .
   - ;
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - <
   - '>'
   - ']'
   - \
   - F11
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - Sft+INTERNATIONAL 3
   - _
   - ^
@@ -100,46 +99,46 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - F12
-  - {t: ▽, type: trans}
   raise:
-  - {t: ▽, type: trans}
-  - KP NUMLOCK
+  - KP NUM
   - KP 7
   - KP 8
   - {t: KP 9, type: held}
   - '-'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '7'
   - '8'
   - '9'
   - /
   - '"'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - Sft+TAB
   - KP 4
   - KP 5
   - KP 6
   - '&'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '4'
   - '5'
   - '6'
   - .
   - '-'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - /
   - KP 1
   - KP 2
   - KP 3
-  - ':'
+  - ;
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '1'
   - '2'
   - '3'
   - '0'
   - '='
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - '"'
   - KP 0
   - .
@@ -150,47 +149,47 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '4'
   - ':'
-  - {t: ▽, type: trans}
   bt:
-  - {t: ▽, type: trans}
   - ESCAPE
   - '`'
   - {type: held}
   - Ctl+R
   - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '-'
   - INSERT
   - HOME
   - PRINTSCREEN
   - END
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - TAB
-  - Gui+Ctl+S
+  - Ctl+Gui+S
   - Ctl+Z
   - Ctl+Y
   - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ','
   - ;
   - PAGE UP
   - UP ARROW
   - PAGE DOWN
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - Sft+CAPSLOCK
   - Ctl+X
   - Ctl+C
   - Ctl+V
   - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - .
   - ''''
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - LEFT CONTROL
   - LEFT SHIFT
   - LEFT ALT
@@ -202,14 +201,15 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+A
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctl+A
   '4':
   - {t: BT, h: '4'}
   - {t: BT, h: '3'}
   - {t: BT, h: '2'}
   - {t: BT, h: '1'}
-  - {t: BT, h: '0', type: held}
+  - {t: BT, h: '0'}
   - BT CLR
   - BT CLR
   - {t: BT, h: '0'}
@@ -222,7 +222,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -252,6 +252,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: default, h: toggle, type: held}
+  - {t: default, h: toggle}
   - {t: ▽, type: trans}
   - BT CLR ALL
