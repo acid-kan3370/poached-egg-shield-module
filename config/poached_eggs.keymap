@@ -17,10 +17,10 @@
 
         lower_layer {
             bindings = <
-&trans  &kp F1                   &kp F2        &kp F3      &kp F4       &kp F5                                              &kp F6         &kp F7                &kp F8             &kp F9         &kp F10           &trans
-&trans  &kp EXCL                 &kp QUESTION  &kp DOLLAR  &kp AT_SIGN  &kp AMPERSAND                                       &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_BRACE    &kp PIPE       &kp LEFT_BRACKET  &trans
-&trans  &kp INTERNATIONAL_3      &kp PERCENT   &kp HASH    &kp DOT      &kp SEMI                                            &kp LESS_THAN  &kp GREATER_THAN      &kp RIGHT_BRACKET  &kp BACKSLASH  &kp F11           &trans
-&trans  &kp LS(INTERNATIONAL_3)  &kp UNDER     &kp CARET   &kp COMMA    &kp LS(INTERNATIONAL_1)  &kp DOUBLE_QUOTES  &trans  &trans         &trans                &trans             &trans         &kp F12           &trans
+&kp F1                   &kp F2          &kp F3      &kp F4       &kp F5                   &trans                             &trans  &kp F6         &kp F7                &kp F8             &kp F9         &kp F10
+&kp EXCLAMATION          &kp QUESTION    &kp DOLLAR  &kp AT_SIGN  &kp AMPERSAND            &trans                             &trans  &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_BRACE    &kp PIPE       &kp LEFT_BRACKET
+&kp INTERNATIONAL_3      &kp PERCENT     &kp HASH    &kp DOT      &kp SEMI                 &trans                             &trans  &kp LESS_THAN  &kp GREATER_THAN      &kp RIGHT_BRACKET  &kp BACKSLASH  &kp F11
+&kp LS(INTERNATIONAL_3)  &kp UNDERSCORE  &kp CARET   &kp COMMA    &kp LS(INTERNATIONAL_1)  &kp DOUBLE_QUOTES  &trans  &trans  &trans  &trans         &trans                &trans             &trans         &kp F12
             >;
         };
 
