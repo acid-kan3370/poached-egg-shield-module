@@ -3,15 +3,6 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    macros {
-        new_macro: new_macro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(O) &kp K &kp W &kp A &kp D &kp M &kp I &kp N &kp N0 &kp N0 &kp N9 &kp N8>;
-            label = "NEW_MACRO";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -44,7 +35,7 @@
 
         bt_layer {
             bindings = <
-&kp ESCAPE        &kp GRAVE       &new_macro    &kp LC(R)  &none   &trans                  &trans  &kp MINUS   &kp INSERT      &kp HOME        &kp PRINTSCREEN  &kp END
+&kp ESCAPE        &kp GRAVE       &none         &kp LC(R)  &none   &trans                  &trans  &kp MINUS   &kp INSERT      &kp HOME        &kp PRINTSCREEN  &kp END
 &kp TAB           &kp LC(LG(S))   &kp LC(Z)     &kp LC(Y)  &none   &trans                  &trans  &kp COMMA   &kp SEMICOLON   &kp PAGE_UP     &kp UP_ARROW     &kp PAGE_DOWN
 &kp LS(CAPSLOCK)  &kp LC(X)       &kp LC(C)     &kp LC(V)  &none   &trans                  &trans  &kp PERIOD  &kp APOSTROPHE  &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT_ARROW
 &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT  &to 0      &trans  &trans  &trans  &trans  &trans  &trans      &trans          &trans          &trans           &kp LC(A)
